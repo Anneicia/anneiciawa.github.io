@@ -1,0 +1,56 @@
+
+body { background-color: #mediumpurple;
+    color: #EBB700;}
+
+h1, h2, h3 {color: yellow; text-align: center;}
+
+p {color: darkblue;}
+
+a {color: yellow;}
+
+<style>
+
+ {   margin: 0;   padding: 0; }
+
+nav {   background-color: cadetblue; }
+
+nav ul { list-style-type: none; text-align: center; }
+
+nav ul li { display: inline-block; margin-right: 10px;}
+
+nav ul li a { display: block; color: white; text-decoration: none; padding: 10px 20px; }
+
+
+nav ul li a:hover { background-color: lightgoldenrodyellow; }
+
+img { width: 400px, height: 300px}
+
+body { margin: 0; font-family , sans-serif; }
+        .navbar {
+            background-color: hotpink; overflow: hidden; }
+        .navbar a { float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 20px; text-decoration: none;}
+        .navbar a:hover { background-color: #mediumpurple; color: black; }
+        .navbar .logo {  font-weight: bold; font-size: 18px; }
+        .navbar .search-bar { float: right; padding: 14px 20px }
+        .navbar .search-bar input[type="text"] { padding: 6px; border: none; border-radius: 4px; }
+    </style>
+
+.box { background-color: purple; color: yellow; padding: 10px; border: 2px solid yellow;}
+
+
+.scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+}
+
+.scroll-content {
+    display: inline-flex;
+}
+
+.scroll-content img {
+    height: 200px;
+    margin-right: 10px;
+.footer {
+  background-color:blue;
